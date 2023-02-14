@@ -15,6 +15,13 @@ public class Lab {
      * @return "Hello, world!"
      */
     public String sayHello(){
-        return "change me";
+        return "Hello, world!";
+    }
+    public static void main(String[] args) {
+
+        Lab hello = new Lab();
+        String output = hello.sayHello();
+
+        System.out.println(output);
     }
 }
